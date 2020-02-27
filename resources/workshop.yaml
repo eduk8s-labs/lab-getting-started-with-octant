@@ -41,5 +41,5 @@ spec:
             paths:                                                                       
             - path: /
               backend:                                                                   
-                serviceName: $(session_id)-octant
+                serviceName: workshop-$(session_id)-octant
                 servicePort: 7777
