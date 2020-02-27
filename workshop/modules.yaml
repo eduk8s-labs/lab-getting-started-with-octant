@@ -5,8 +5,24 @@ modules:
     verify-environment:
         name: Setup Environment
         exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
+    exercises/01-resources-overview:
+        name: Resources Overview
+    exercises/02-resource-categories:
+        name: Resource Categories
+    exercises/03-workloads-overview:
+        name: Workloads Overview
+    exercises/04-application-logs:
+        name: Application Logs
+    exercises/05-application-events:
+        name: Application Events
+    exercises/06-accessing-containers:
+        name: Accessing Containers
+    exercises/07-port-forwarding:
+        name: Port Forwarding
+    exercises/08-switching-contexts:
+        name: Switching Contexts
+    exercises/09-dashboard-plugins:
+        name: Dashboard Plugins
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop

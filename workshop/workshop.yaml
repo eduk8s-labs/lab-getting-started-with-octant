@@ -4,5 +4,13 @@ modules:
     activate:
     - workshop-overview
     - setup-environment
-    - exercises/01-sample-content
+    - exercises/01-resources-overview
+    - exercises/02-resource-categories
+    - exercises/03-workloads-overview
+    - exercises/04-application-logs
+    - exercises/05-application-events
+    - exercises/06-accessing-containers
+    - exercises/07-port-forwarding
+    - exercises/08-switching-contexts
+    - exercises/09-dashboard-plugins
     - workshop-summary
