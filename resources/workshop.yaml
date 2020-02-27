@@ -11,6 +11,7 @@ spec:
   session:
     patches:
       containers:
+      - name: workshop
         ports:
         - name: octant
           protocol: TCP
