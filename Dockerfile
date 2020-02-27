@@ -6,3 +6,5 @@ RUN curl -sL -o /tmp/octant.tar.gz https://github.com/vmware-tanzu/octant/releas
     mkdir -p /home/eduk8s/bin && \
     tar -C /home/eduk8s/bin --strip-components 1 -xf /tmp/octant.tar.gz octant_0.10.2_Linux-64bit/octant && \
     rm -f /tmp/octant.tar.gz
+
+RUN mv console.js /opt/gateway/routes/console.js
