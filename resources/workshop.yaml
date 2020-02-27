@@ -30,17 +30,17 @@ spec:
           targetPort: 7777
         selector:
           deployment: workshop-$(session_id)
-    - apiVersion: extensions/v1beta1                                                     
-      kind: Ingress                                                                      
-      metadata:                                                                          
+    - apiVersion: extensions/v1beta1
+      kind: Ingress
+      metadata:
         name: workshop-$(session_id)-octant
         namespace: $(workshop_namespace)
-      spec:                                                                              
-        rules:                                                                           
+      spec:
+        rules:
         - host: $(session_namespace)-octant.$(ingress_domain)
-          http:                                                                          
-            paths:                                                                       
+          http:
+            paths:
             - path: /
-              backend:                                                                   
+              backend:
                 serviceName: workshop-$(session_id)-octant
                 servicePort: 7777
