@@ -6,7 +6,7 @@ To view the Octant web interface, click on the **Console** tab in the workshop d
 
 The set of resources you see in the overview are the default resources created with the namespace, as well as some additional resources required to support the workshop environment.
 
-Note that because the web interface for Octant has only just started up, it may take a few moments to synchronize as it queries all the different resource types the cluster supports.
+Note that because the web interface for Octant has only just started up, it may take a few moments to synchronize as it queries all the different resource types the cluster supports. Proceed with the following steps if necessary as it catches up.
 
 So that we have a real application to work with and investigate, first run in the terminal the command:
 
@@ -37,3 +37,5 @@ To monitor the deployment of the blog, run:
 ```execute
 kubectl rollout status deployment/blog
 ```
+
+Now that we have deployed some workloads, let's explore Octant. Jump back to the view the Octant web interface by clicking on the **Console** tab in the workshop dashboard or by clicking on this [console](%console_url%) link.
