@@ -1,9 +1,9 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: lab-markdown-sample
+  name: lab-octant-testing
 spec:
   portal:
     capacity: 1
   workshops:
-  - name: lab-markdown-sample
+  - name: lab-octant-testing
