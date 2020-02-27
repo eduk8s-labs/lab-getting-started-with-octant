@@ -1,8 +1,8 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: WorkshopRequest
 metadata:
-  name: lab-markdown-sample
+  name: lab-octant-testing
 spec:
   environment:
-    name: lab-markdown-sample
-    token: lab-markdown-sample
+    name: lab-octant-testing
+    token: lab-octant-testing

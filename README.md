@@ -1,4 +1,4 @@
-LAB - Markdown Sample
-=====================
+LAB - Octant Testing
+====================
 
-Sample workshop content using Markdown formatting for pages.
+This is a workshop for playing with Octant.

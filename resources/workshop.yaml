@@ -1,13 +1,45 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: lab-octant-testing
 spec:
   vendor: eduk8s.io
-  title: Markdown Sample
-  description: A sample workshop using Markdown
-  url: https://github.com/eduk8s/lab-markdown-sample
-  image: quay.io/eduk8s/lab-markdown-sample:master
-  duration: 15m
+  title: Octant Testing
+  description: Play area for testing Octant
+  url: https://github.com/eduk8s-tests/lab-octant-testing
+  image: quay.io/eduk8s-tests/lab-octant-testing:master
   session:
-    budget: small
+    patches:
+      containers:
+        ports:
+        - name: octant
+          protocol: TCP
+          containerPort: 7777
+    objects:
+    - apiVersion: v1
+      kind: Service
+      metadata:
+        name: workshop-$(session_id)-octant
+        namespace: $(workshop_namespace)
+      spec:
+        type: ClusterIP
+        ports:
+        - port: 7777
+          protocol: TCP
+          targetPort: 7777
+        selector:
+          deployment: workshop-$(session_id)
+    - apiVersion: extensions/v1beta1                                                     
+      kind: Ingress                                                                      
+      metadata:                                                                          
+        name: workshop-$(session_id)-octant
+        namespace: $(workshop_namespace)
+      spec:                                                                              
+        rules:                                                                           
+        - host: $(session_namespace)-octant.$(ingress_domain)
+          http:                                                                          
+            paths:                                                                       
+            - path: /
+              backend:                                                                   
+                serviceName: $(session_id)-octant
+                servicePort: 7777
