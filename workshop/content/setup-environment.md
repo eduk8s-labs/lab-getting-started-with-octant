@@ -2,7 +2,7 @@ For this workshop Octant has been deployed as a container into the workshop envi
 
 In this workshop environment, because of the constraints imposed, you will not be able to exercise all features of Octant. Specifically, you will only be able to access resources in the Kubernetes namespace associated with your workshop session. You will not be able to view cluster level resources, or switch to other namespaces.
 
-To view the Octant web interface, click on the "Console" tab in the workshop dashboard. Alternatively, click on this [console](%console_url%) link. You should find that Octant is already connected to the Kubernetes cluster and it is displaying an overview for the ``%session_namespace%`` namespace.
+To view the Octant web interface, click on the **Console** tab in the workshop dashboard. Alternatively, click on this [console](%console_url%) link. You should find that Octant is already connected to the Kubernetes cluster and it is displaying an overview for the `%session_namespace%` namespace.
 
 The set of resources you see in the overview are the default resources created with the namespace, as well as some additional resources required to support the workshop environment.
 

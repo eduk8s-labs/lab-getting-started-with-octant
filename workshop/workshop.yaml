@@ -3,6 +3,6 @@ name: Octent Testing
 modules:
     activate:
     - workshop-overview
-    - verify-environment
+    - setup-environment
     - exercises/01-sample-content
     - workshop-summary
