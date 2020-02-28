@@ -10,4 +10,4 @@ Click on the **Overview->Workloads->Pods** category. This will bring up a list o
 
 You can then select a specific pod to see the details page for it.
 
-In this workshop environment, Octant has been set up such that only namespaced resources can be viewed. When you run Octant yourself, provided you have the appropriate roles, you will also be able to view cluster scoped resources.
+In this workshop environment, Octant has been set up such that only namespaced resources can be viewed. When you run Octant yourself, provided you have the appropriate roles, you will also be able to view cluster scoped resources in categories under **Cluster Overview** as well.
