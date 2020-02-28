@@ -8,7 +8,7 @@ Once the port forwarding has been setup, the URL to access the exposed port of t
 
 ![Pod Exposed](octant-pod-exposed.png)
 
-Note that this URL will only work when access from a web browser of HTTP client running on the same host as Octant. In this workshop environment, because Octant is being run inside of a container inside of the Kubernetes cluster, it will only be accessible from the terminal provided by the workshop environment. If you wish to try, switch to the terminal in the workshop dashboard and run:
+Note that this URL will only work when accessed from a web browser or HTTP client running on the same host as Octant. In this workshop environment, because Octant is being run inside of a container inside of the Kubernetes cluster, it will only be accessible from the terminal provided by the workshop environment. If you wish to try, switch to the terminal in the workshop dashboard and run:
 
 ```copy-and-edit
 curl http://localhost:12345
