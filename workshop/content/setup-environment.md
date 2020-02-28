@@ -6,7 +6,7 @@ To view the Octant web interface, click on the **Console** tab in the workshop d
 
 The set of resources you see in the overview are the default resources created with the namespace, as well as some additional resources required to support the workshop environment.
 
-<span class="fas fa-bug"></span> Note that due to an issue with Octant as described in [issue #736](https://github.com/vmware-tanzu/octant/issues/736) of the Octant project issue tracker, the overview of resources can take a while to be displayed. Proceed with the following steps if necessary as it catches up.
+<span class="fas fa-bug"></span> Note that in this environment, due to an issue with Octant as described in [issue #736](https://github.com/vmware-tanzu/octant/issues/736) of the Octant project issue tracker, the overview of resources can take a while to be displayed. A workaround has been employed to avoid the issue, but if necessary, proceed with the following steps as it catches up.
 
 So that we have a real application to work with and investigate, first run in the terminal the command:
 
