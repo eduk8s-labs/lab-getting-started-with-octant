@@ -12,5 +12,4 @@ modules:
     - exercises/06-accessing-containers
     - exercises/07-port-forwarding
     - exercises/08-switching-contexts
-    - exercises/09-dashboard-plugins
     - workshop-summary
