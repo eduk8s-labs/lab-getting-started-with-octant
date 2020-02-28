@@ -12,6 +12,6 @@ Click on ``blog`` in the card for that deployment. This will bring up a further 
 
 The color of the rectangles for each resource can change based on their state.
 
-Click on a rectangle for a resource and will display a popup to the right giving a summary of the state of the resource.
+Click on a rectangle for a resource and it will display a popup to the right giving a summary of the state of the resource.
 
 You can also access a similar visualization by clicking on the **Resource Viewer** tab when looking at the details for a specific resource selected from the overview page or list of resources under a resource category.
