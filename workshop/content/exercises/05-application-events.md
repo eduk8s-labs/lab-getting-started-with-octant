@@ -1,6 +1,6 @@
 Logs capture messages output by your application. They do not capture information related to the management of workloads (deployments, replica sets, pods etc.), which are generated from the Kubernetes control plane. Such information is output as event resource objects.
 
-To view the events generated for the pod, scroll down to the bottom of the pod details page.
+To view the events generated for the pod, on the **Summary** tab, scroll down to the bottom of the pod details page.
 
 ![Pod Events](octant-pod-events.png)
 

@@ -24,4 +24,4 @@ This will result in the display of a terminal pane at the bottom of the page and
 
 ![Pod Terminal](octant-pod-terminal.png)
 
-You can now interact with any processes running inside of the container. When finished, run ``exit`` in the shell, or click on the "**X**" at the top of the terminal window to dismiss it.
+You can now interact with any processes running inside of the container. When finished click on the "**X**" at the top of the terminal window to dismiss it.
