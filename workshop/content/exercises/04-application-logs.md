@@ -12,6 +12,8 @@ To access the logs for a pod, click on the **Logs** tab.
 
 ![Pod Logs](octant-pod-logs.png)
 
+This is the same as you would be able to access when using ``kubectl logs`` from the command line.
+
 If a pod consists of more than one container, you may need to select the specific container you are interested in from the dropdown.
 
 By default timestamps are shown for when log messages were captured from the container. You can disable this if required, such as if the application itself adds timestamps and having both is confusing.
