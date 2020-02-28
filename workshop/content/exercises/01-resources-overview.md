@@ -8,7 +8,7 @@ If you want to work with a different namespace, you can use the drop down list i
 
 From the overview, you can click on the names of specific resources under each category shown. This allows you to drill down to more details of that specific resource.
 
-Click on ``blog`` under the **Deployments** category of the overview, or click on this [blog deployment](%console_url%/#/overview/namespace/%session_namespace%/workloads/deployments/blog) link.
+Click on ``blog`` under the **Deployments** card of the overview.
 
 ![Deployment Details](octant-deployment-details.png)
 
