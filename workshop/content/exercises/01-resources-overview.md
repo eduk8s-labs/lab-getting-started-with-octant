@@ -8,4 +8,16 @@ If you want to work with a different namespace, you can use the drop down list i
 
 From the overview, you can click on the names of specific resources under each category shown. This allows you to drill down to more details of that specific resource.
 
-Click on ``blog`` under the **Deployments** category, or click on this [blog deployment](%console_url%/#/overview/namespace/%session_namespace%/workloads/deployments/blog) link.
+Click on ``blog`` under the **Deployments** category of the overview, or click on this [blog deployment](%console_url%/#/overview/namespace/%session_namespace%/workloads/deployments/blog) link.
+
+![Deployment Details](octant-deployment-details.png)
+
+Here you can view details on a deployment, including a summary, resource metadata and the raw YAML. Right now you can only view the YAML description, but the ability to edit the raw YAML is on the roadmap for Octant.
+
+Independent of editing the raw YAML, dependent on the resource type, you may have the ability to edit select details. In the case of a deployment, clicking on **EDIT** within the **Configuration** card, will allow you to adjust the number of replicas for the deployment.
+
+![Deployment Editor](octant-deployment-editor.png)
+
+The deployment editor will temporarily replace the configuration card when making changes.
+
+Set the number of replicas to 1 and submit the change, otherwise cancel out of the deployment editor.
