@@ -9,50 +9,6 @@ spec:
   url: https://github.com/eduk8s-tests/lab-octant-testing
   image: quay.io/eduk8s-tests/lab-octant-testing:master
   session:
-    patches:
-      containers:
-      - name: workshop
-        ports:
-        - name: octant
-          protocol: TCP
-          containerPort: 7777
-    objects:
-    #- apiVersion: rbac.authorization.k8s.io/v1
-    #  kind: ClusterRoleBinding
-    #  metadata:
-    #    name: $(session_namespace)-cluster-admin
-    #  roleRef:
-    #    apiGroup: rbac.authorization.k8s.io
-    #    kind: ClusterRole
-    #    name: cluster-admin
-    #  subjects:
-    #  - kind: ServiceAccount
-    #    namespace: $(workshop_namespace)
-    #    name: $(service_account)
-    - apiVersion: v1
-      kind: Service
-      metadata:
-        name: workshop-$(session_id)-octant
-        namespace: $(workshop_namespace)
-      spec:
-        type: ClusterIP
-        ports:
-        - port: 7777
-          protocol: TCP
-          targetPort: 7777
-        selector:
-          deployment: workshop-$(session_id)
-    - apiVersion: extensions/v1beta1
-      kind: Ingress
-      metadata:
-        name: workshop-$(session_id)-octant
-        namespace: $(workshop_namespace)
-      spec:
-        rules:
-        - host: $(session_namespace)-octant.$(ingress_domain)
-          http:
-            paths:
-            - path: /
-              backend:
-                serviceName: workshop-$(session_id)-octant
-                servicePort: 7777
+    ingress:
+    - name: octant
+      port: 7777
