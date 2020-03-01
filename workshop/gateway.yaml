@@ -3,7 +3,7 @@
 #  port: 7777
 
 panels:
-- name: Octant
+- name: Console
   url: http://$(session_namespace)-octant.$(ingress_domain)/
 - name: Documentation
   url: https://octant.dev/docs/master/
