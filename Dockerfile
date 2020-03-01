@@ -1,4 +1,4 @@
-FROM quay.io/eduk8s/workshop-dashboard:master
+FROM quay.io/eduk8s/workshop-dashboard:develop
 
 COPY --chown=1001:0 . /home/eduk8s/
 
@@ -8,3 +8,5 @@ RUN curl -sL -o /tmp/octant.tar.gz https://github.com/vmware-tanzu/octant/releas
     rm -f /tmp/octant.tar.gz
 
 RUN mv console.js /opt/gateway/routes/console.js
+
+ENV ENABLE_CONSOLE=false

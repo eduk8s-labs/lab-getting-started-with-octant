@@ -1,0 +1,9 @@
+#proxy:
+#- name: octant
+#  port: 7777
+
+panels:
+- name: Octant
+  url: http://$(session_namespace)-octant.$(ingress_domain)/
+- name: Documentation
+  url: https://octant.dev/docs/master/
