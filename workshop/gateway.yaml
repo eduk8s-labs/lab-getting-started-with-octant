@@ -4,6 +4,7 @@
 
 panels:
 - name: Console
-  url: http://$(session_namespace)-octant.$(ingress_domain)/
+  url: "http://$(session_namespace)-octant.$(ingress_domain)/#/overview/namespace/$(session_namespace)"
+
 - name: Documentation
   url: https://octant.dev/docs/master/
