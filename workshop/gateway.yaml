@@ -1,6 +1,6 @@
-#proxy:
-#- name: octant
-#  port: 7777
+proxies:
+- name: octant
+  port: 7777
 
 panels:
 - name: Console
