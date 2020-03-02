@@ -11,6 +11,3 @@ spec:
   session:
     ingress:
     - name: octant
-      port: 7777
-    - name: testing-1
-    - name: testing-2

@@ -1,8 +1,6 @@
 proxies:
-- name: testing-1
+- name: octant
   port: 7777
-- name: testing-2
-  port: 8888
 
 panels:
 - name: Console
