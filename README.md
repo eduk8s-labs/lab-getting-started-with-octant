@@ -1,7 +1,7 @@
-LAB - Octant Testing
-====================
+LAB - Testing out Octant
+========================
 
-This is a workshop for playing with Octant.
+This workshop provides an introduction to Octant, and a play area for testing it.
 
 Prerequisites
 -------------
