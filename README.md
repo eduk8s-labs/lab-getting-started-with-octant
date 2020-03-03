@@ -18,7 +18,7 @@ Deployment
 To deploy the workshop environment run:
 
 ```
-kubectl apply -k github.com/eduk8s-tests/lab-octant-testing
+kubectl apply -k github.com/eduk8s-labs/lab-octant-testing
 ```
 
 Then run:
@@ -37,5 +37,5 @@ Deletion
 When you are finished with the workshop environment, you can delete it by running:
 
 ```
-kubectl delete -k github.com/eduk8s-tests/lab-octant-testing
+kubectl delete -k github.com/eduk8s-labs/lab-octant-testing
 ```
