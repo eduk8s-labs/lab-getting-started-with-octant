@@ -9,5 +9,6 @@ spec:
   url: https://github.com/eduk8s-labs/lab-octant-testing
   image: quay.io/eduk8s-labs/lab-octant-testing:master
   session:
+    budget: medium
     ingress:
     - name: octant
