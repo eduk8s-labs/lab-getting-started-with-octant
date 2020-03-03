@@ -5,7 +5,7 @@ metadata:
 spec:
   vendor: eduk8s.io
   title: Testing out Octant
-  description: An introduction to Octant, and a play area for testing it
+  description: An introduction to Octant and play area for testing it
   url: https://github.com/eduk8s-labs/lab-octant-testing
   image: quay.io/eduk8s-labs/lab-octant-testing:master
   session:
