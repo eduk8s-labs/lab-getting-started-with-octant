@@ -1,6 +1,6 @@
 proxies:
 - name: octant
-  port: 10090
+  port: 7777
 panels:
 - name: Octant
   url: "$(ingress_protocol)://$(session_namespace)-octant.$(ingress_domain)/#/overview/namespace/$(session_namespace)"
