@@ -7,4 +7,4 @@ RUN curl -sL -o /tmp/octant.tar.gz https://github.com/vmware-tanzu/octant/releas
     tar -C /home/eduk8s/bin --strip-components 1 -xf /tmp/octant.tar.gz octant_0.10.2_Linux-64bit/octant && \
     rm -f /tmp/octant.tar.gz
 
-ENV ENABLE_CONSOLE=false
+# ENV ENABLE_CONSOLE=false
