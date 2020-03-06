@@ -10,5 +10,7 @@ spec:
   image: quay.io/eduk8s-labs/lab-octant-testing:master
   session:
     budget: medium
-    ingress:
-    - name: octant
+    applications:
+      console:
+        enabled: true
+        vendor: octant

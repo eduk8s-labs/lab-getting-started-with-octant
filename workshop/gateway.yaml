@@ -1,8 +1,0 @@
-proxies:
-- name: octant
-  port: 10090
-panels:
-- name: Octant
-  url: "$(ingress_protocol)://$(session_namespace)-octant.$(ingress_domain)/#/overview/namespace/$(session_namespace)"
-- name: Documentation
-  url: https://octant.dev/docs/master/
