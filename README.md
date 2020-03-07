@@ -1,5 +1,5 @@
-LAB - Testing out Octant
-========================
+LAB - Octant Testing
+====================
 
 This workshop provides an introduction to Octant and a play area for testing it.
 
