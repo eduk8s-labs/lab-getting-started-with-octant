@@ -42,6 +42,8 @@ spec:
         volumeMounts:
         - name: media
           mountPath: "/opt/app-root/src/media"
+      securityContext:
+        fsGroup: 0
       volumes:
       - name: media
         persistentVolumeClaim:
