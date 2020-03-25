@@ -14,3 +14,6 @@ spec:
       console:
         enabled: true
         vendor: octant
+    dashboards:
+    - name: Video
+      url: https://www.youtube.com/watch?v=D5PLsXP9aPc
