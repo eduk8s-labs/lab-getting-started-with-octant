@@ -58,8 +58,6 @@ spec:
         volumeMounts:
         - name: data
           mountPath: "/var/lib/pgsql/data"
-      securityContext:
-        fsGroup: 0
       volumes:
       - name: data
         persistentVolumeClaim:
