@@ -1,8 +1,0 @@
-apiVersion: training.eduk8s.io/v1alpha1
-kind: WorkshopRequest
-metadata:
-  name: lab-octant-testing
-spec:
-  environment:
-    name: lab-octant-testing
-    token: lab-octant-testing
