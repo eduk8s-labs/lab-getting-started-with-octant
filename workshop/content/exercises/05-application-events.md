@@ -6,4 +6,4 @@ To view the events generated for the pod, on the **Summary** tab, scroll down to
 
 A similar events section will appear under any resource type corresponding to a workload.
 
-You can see all events generated within a namespace by selecting **Overview->Events** in the left hand side menu.
+You can see all events generated within a namespace by selecting **Events** in the left hand side menu.

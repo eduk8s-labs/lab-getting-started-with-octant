@@ -17,3 +17,5 @@ curl http://localhost:12345
 Replace the port number ``12345`` in this command with the actual port number displayed by Octant.
 
 If you set up port forwarding and forget what is running, you can click on **Port Forwards** in the left hand side menu. This will bring up a page displaying a list of all active port forwarding sessions.
+
+![Current Ports](octant-current-ports.png)

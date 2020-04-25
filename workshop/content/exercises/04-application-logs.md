@@ -1,6 +1,6 @@
 Most of the time when trying to work out what an application is doing, you will be interacting with a pod. A pod is the set of containers making up a single instance of your application.
 
-Switch back to the list of pods in the namespace by clicking on the **Overview->Workloads->Pods** category in the left hand side menu.
+Switch back to the list of pods in the namespace by clicking on the **Workloads->Pods** category in the left hand side menu.
 
 From the list of pods, select a pod from the blog application. These are the pod entries with the ``app:blog`` label.
 
