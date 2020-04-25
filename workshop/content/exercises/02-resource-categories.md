@@ -2,7 +2,7 @@ The overview page for a namespace will show all namespaced resources for a names
 
 If you are only interested in specific resource types, you can instead click on the resource type in the left hand side menu.
 
-If the left side menu is collapsed, you can hover over the menu to see the sub categories and the items under them, else you can expand the memory by clicking on the expand button at the top of the menu, and then selecting the sub category.
+If the left side menu is collapsed, you can hover over the menu to see the sub categories and the items under them, else you can expand the menu by clicking on the expand button at the top of the menu, and then selecting the sub category.
 
 ![Resource Categories](octant-resource-categories.png)
 
