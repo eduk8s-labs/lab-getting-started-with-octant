@@ -1,4 +1,4 @@
-apiVersion: training.eduk8s.io/v1alpha1
+apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
   name: lab-octant-testing
@@ -11,7 +11,8 @@ spec:
   difficulty: beginner
   duration: 30m
   url: https://github.com/eduk8s-labs/lab-octant-testing
-  image: quay.io/eduk8s-labs/lab-octant-testing:master
+  content:
+    image: quay.io/eduk8s-labs/lab-octant-testing:master
   session:
     budget: medium
     applications:
