@@ -7,5 +7,5 @@ It provides an alternative to the de-facto Kubernetes dashboard that is typicall
 Is this workshop you will get a quick introduction to Octant, how to navigate its interface to access details of your Kubernetes cluster and the applications you have deployed, as well as how to switch contexts between different users and clusters.
 
 <script>
-eduk8s.expose_dashboard("octant")
+$(document).ready(() => { eduk8s.expose_dashboard("console") })
 </script>
