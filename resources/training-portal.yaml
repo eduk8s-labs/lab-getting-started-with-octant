@@ -3,9 +3,8 @@ kind: TrainingPortal
 metadata:
   name: lab-octant-testing
 spec:
-  portal:
+  workshops:
+  - name: lab-octant-testing
     capacity: 1
     expires: 30m
     orphaned: 5m
-  workshops:
-  - name: lab-octant-testing
