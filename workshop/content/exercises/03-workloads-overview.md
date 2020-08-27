@@ -1,4 +1,4 @@
-To help you visualize the workloads and the relationship between them and related resources, Octant provides an alternate view than the overview for viewing workloads.
+To help you visualize the workloads and the relationship between them and related resources, Octant provides an alternate view to the overview for viewing workloads.
 
 To access this, click on **Applications** at the top of the left hand side menu. This will display a set of cards representing each of the workloads deployed in the namespace.
 

@@ -12,7 +12,7 @@ Click on ``blog`` under the **Deployments** card of the overview.
 
 ![Deployment Details](octant-deployment-details.png)
 
-Here you can view details on a deployment, including a summary, resource metadata and the raw YAML. Right now you can only view the YAML description, but the ability to edit the raw YAML is on the roadmap for Octant.
+Here you can view details on a deployment, including a summary, resource metadata and the raw YAML. In this version of Octant you can only view the YAML description, but the ability to edit the raw YAML has been added in a newer version of Octant than this workshop is currently using.
 
 Independent of editing the raw YAML, dependent on the resource type, you may have the ability to edit select details. In the case of a deployment, clicking on **EDIT** within the **Configuration** card, will allow you to adjust the number of replicas for the deployment.
 

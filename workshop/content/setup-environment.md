@@ -36,4 +36,4 @@ To monitor the deployment of the blog, run:
 kubectl rollout status deployment/blog
 ```
 
-Now that we have deployed some workloads, let's explore Octant. Jump back to the view the Octant web interface by clicking on the **Console** tab in the workshop dashboard.
+Now that we have deployed some workloads, let's explore Octant. Jump back to the Octant web interface by clicking on the **Console** tab in the workshop dashboard.
