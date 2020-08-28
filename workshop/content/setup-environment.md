@@ -12,11 +12,9 @@ So that we have a real application to work with and investigate, first run in th
 kubectl apply -f database
 ```
 
-This will deploy a PostrgreSQL database.
+Did you type the command in yourself? If you did, click on the command block instead and you will find that it is executed for you. The workshop uses these action blocks for various purposes. Anytime you see such a block with an icon on the right hand side, you can click on it and it will perform the listed action for you.
 
-Did you type the command in yourself? If you did, click on the command instead and you will find that it is executed for you. You can click on any command which has the <span class="fas fa-running"></span> icon shown to the right of it, and it will be copied to the interactive terminal and run. If you would rather make a copy of the command so you can paste it to another window, hold down the shift key when you click on the command.
-
-To monitor the deployment of the database, run:
+When run, this command will deploy a PostrgreSQL database. To monitor the deployment of the database, run:
 
 ```execute
 kubectl rollout status deployment/blog-db
