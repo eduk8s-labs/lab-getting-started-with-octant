@@ -1,6 +1,6 @@
 In the case of the blog application being used, an ingress was created allowing it to be accessed from outside of the cluster. If an application was not exposed using an ingress, yet you needed to access it from your local client machine, you can use port forwarding.
 
-If using port forwarding from the command line you would use the ``kubectl port-forward`` command. From Octant, you can set up port forwarding for a container by clicking on **START PORT FORWARD** on the container card on the pod details page.
+If using port forwarding from the command line you would use the ``kubectl port-forward`` command. From Octant, you can set up port forwarding for a container by clicking on **START PORT FORWARD** on the container card displayed on the summary tab of the pod details page.
 
 ![Pod Forwarding](octant-pod-forwarding.png)
 
