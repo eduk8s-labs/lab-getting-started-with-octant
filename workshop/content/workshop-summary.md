@@ -6,7 +6,7 @@ For more information on Octant, check out the project web site at:
 
 Documentation can be found at:
 
-* https://octant.dev/docs/master/
+* https://reference.octant.dev/
 
 For the source code, check out the GitHub repository at:
 
@@ -14,4 +14,4 @@ For the source code, check out the GitHub repository at:
 
 For information on dashboard plugins for Octant see:
 
-* https://octant.dev/docs/master/plugins/
+* https://reference.octant.dev/?path=/docs/docs-plugins-1-getting-started--page
