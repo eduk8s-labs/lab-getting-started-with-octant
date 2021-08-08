@@ -30,7 +30,7 @@ kubectl apply -f https://raw.githubusercontent.com/eduk8s-labs/lab-octant-testin
 Then run:
 
 ```
-kubectl get trainingportal/lab-octant-testing
+kubectl get trainingportal/lab-getting-started-with-octant
 ```
 
 This will output the URL to access the web portal for the training environment.
